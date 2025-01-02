@@ -1,0 +1,7 @@
+[user]
+  name  = User1 
+	email = user1@email.com 
+
+[core]
+  ; i - identity file to use
+  sshCommand= "ssh -i ~/.ssh/id_ ...."

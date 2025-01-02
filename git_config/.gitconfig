@@ -1,0 +1,15 @@
+[core]
+    ; editor = nano
+    ; autocrlf = true
+    ; sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
+
+[user]
+    name = yourname 
+    email = your@mail.com 
+
+[includeIf "gitdir:~/user1/"]
+    path = ~/.gitconfig-user1
+
+; [includeIf "gitdir:~/personal/"]
+    ; path = ~/.gitconfig-personal
+
