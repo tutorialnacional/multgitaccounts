@@ -4,7 +4,7 @@
 Follow these steps to configure SSH for GitHub:
 
 ### 1. Generate Keys and Configuration
-Run the `user_config.ps1` script (Open powershell as local user, if isn't administrador then run: runas /user:domain\adminuser $^)
+Run the `user_config.ps1` script (Open powershell as local user, if isn't administrador then run: `runas /user:domain\adminuser $^`)
 - This will generate the public and private keys in the `~/.ssh` folder.
 - It will also create a configuration file in the local folder.
 
