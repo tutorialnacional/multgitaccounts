@@ -43,8 +43,9 @@ if (-Not (Test-Path -Path $sshFolder)) {
 # *** END create .ssh folder
 
 # Generate ssh key pass -t type of key | ed25519 pk algoritm | C custom key comment
-ssh-keygen -t ed25519 -C "username" -f "id_ed25519_gh_username"
 ### suggested file name: id_ed25519_gh_username where gh - github
+$userName = "myusername"
+Invoke-Expression "ssh-keygen -t ed25519 -C `"$($userName)`" -f id_ed25519_gh_$($userName)"
 
 # *** Get all files in the current directory that start with _id
 $currentDirectory = Get-Location
