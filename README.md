@@ -26,3 +26,7 @@ Run the `user_config.ps1` script (Open powershell as local user, if isn't admini
   ssh -Tv github.youruser
   ```
   - Respond with `yes` to add the host to `~/.ssh/known_hosts` if prompted.
+
+
+  Source:
+  https://youtu.be/Fyfp0oEWD6w
